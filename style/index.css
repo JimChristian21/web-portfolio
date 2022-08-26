@@ -16,6 +16,10 @@ body {
 	overflow-x: hidden;
 }
 
+.hide-overflow {
+	overflow-x: hidden;
+}
+
 .navbar-logo {
 	height: 30px;
 }
@@ -38,7 +42,7 @@ p {
 }
 
 .bg-cstm-dark-blue {
-	background-color: #548CA8;
+	background-color: #0E7BA2;
 }
 
 .bg-cstm-light {
@@ -81,6 +85,7 @@ p {
 .profile {
 	width: 250px;
 	height: 280px;
+	border-radius: 0 0 50% 50%;
 }
 
 .btn:hover {
@@ -119,6 +124,12 @@ a i:hover {
 	max-height: 100px;
 	margin-right: 2rem;
 	margin-bottom: 1rem;
+}
+
+.profile-container {
+	background-color: #0E7BA2;
+	border-radius: 0 0 50% 50%;
+	width: 270px;
 }
 
 @media (min-width: 770px) {
